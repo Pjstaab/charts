@@ -1,0 +1,5 @@
+mysql:
+  enabled: false
+  primary:
+    livenessProbe:
+      periodSeconds: 60

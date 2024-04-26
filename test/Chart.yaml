@@ -1,0 +1,8 @@
+apiVersion: v2
+description: Test Chart
+name: test
+version: 0.1.0
+dependencies:
+  - name: common
+    version: 0.1.x
+    repository: file://../common
