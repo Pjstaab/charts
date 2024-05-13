@@ -1,0 +1,13 @@
+hpa:
+  enabled: false
+  services:
+  - targetCPUUtilizationPercentage: 80
+
+rds:
+  allocatedStorage: 20
+  dbInstanceClass: db.t4g.micro
+  engine: mysql
+  engineVersion: "8.0.23"
+  masterUsername: root
+  backupRetentionPeriod: 7
+  multiAZ: false

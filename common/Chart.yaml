@@ -1,0 +1,11 @@
+apiVersion: v2
+description: A Library Helm Chart for grouping common logic between fn charts. This chart is not deployable by itself.
+name: common
+type: library
+version: 3.0.0
+dependencies:
+  - name: common
+    repository: oci://registry-1.docker.io/bitnamicharts
+    version: 2.x.x
+    tags:
+      - bitnami-common
